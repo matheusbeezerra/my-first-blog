@@ -1,0 +1,93 @@
+
+{% load static %}
+<html>
+    <head>
+        <title>Blog Developer</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+        <div class="page-header">
+            <h1><a href="/">Blog Developer</a></h1>
+            <h4>O futuro é o que a gente planta no presente.</h4>
+            <br></br>
+        </div>
+
+        <div class="content container"> 
+             <div class="row">
+                 <div class="col-md-8">
+                    {% block content %}
+                    {% endblock %}
+                 </div>
+             </div>
+        </div>
+
+        <div>
+            <h2><a href="">O que faz o Análista de Sistema?</a></h2>
+            <br><br/>
+            <p>O <b>analista</b> é o profissional que oferece a solução para um problema através do uso de sistemas de informação. Para isso, precisa entender as necessidades do cliente (conhecer bem seu tipo de negócio) e planejar, desenvolver ou até mesmo customizar sistemas computacionais capazes de executar as tarefas adequadamente.</p>
+            <br><br/>
+            <p>Para compreendermos melhor como é o trabalho de um Análista de Sistemas, vamos dividi-lo em quatro grandes áreas:</p>
+            <br><br/>
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80" alt="analyst of system" width=800 height=500>
+            <br><br/>
+
+            <h3>1. Desenvolvimento de Software</h3>
+            
+            <p>O software é um programa computacional. Entre os mais conhecidos, podemos citar editores de texto, programas de envio de mensagens, aplicativos de celulares e planilhas eletrônicas.
+             Um software possui uma sequência lógica de instruções que executam tarefas específicas a partir de informações que inserimos nele. O papel do analista de sistemas é criar, planejar e desenvolver programas personalizados para cumprir os objetivos da empresa.</p>
+            <br><br/>
+
+            <h3>2. Administração de Banco de Dados</h3>
+            
+            <p>O analista de sistemas precisa conhecer o tipo de dados com os quais está lidando e também o objetivo que a empresa quer atingir. Com os parâmetros definidos, desenvolve o banco de dados propriamente dito. Após o desenvolvimento, o analista precisará instalar e configurar o banco de dados para funcionar junto do software da empresa.
+             O trabalho do analista de sistemas não se encerra após a instalação do banco de dados. Enquanto o software vai sendo utilizado é preciso fazer um gerenciamento das informações, monitorar seu uso e atualizar o banco de dados fazendo alterações sempre que necessário.</p>
+            <br><br/>
+
+            <h3>3. Administração de Redes</h3>
+            
+            <p>Na área de administração de redes o analista de sistemas gerencia toda a rede de computadores de uma empresa. É o profissional responsável por toda a infraestrutura de TI, realizando a instalação, configuração e manutenção dos sistemas operacionais e software</p>
+            <br><br/>
+
+            <h3>4. Suporte</h3>
+            
+            <p>Aliado ao trabalho de desenvolvimento de sistemas está também o de suporte aos usuários.  É de responsabilidade do analista de sistemas fazer constantes atualizações dos softwares para que se ajustem às novas necessidades que podem surgir na empresa.
+             Ele também escreve manuais técnicos de funcionamento dos sistemas que desenvolver e oferece treinamentos para os futuros usuários</p>
+            <br><br/>
+
+            <p>publicado: 18.02.2021  horário: 10:00</p>
+            <hr><hr/>
+            <br><br/>
+        </div>
+
+        <div>           
+            <h2><a href="">O que faz o Engenheiro de Software?</a></h2>
+            <br><br/>
+            <p>Com cada vez mais empresas automatizando seus serviços e criando suas próprias plataformas digitais, a profissão de <b>Engenheiro de Software</b> foi considerada a 2ª melhor da área de TI em crescimento e remuneração. 
+             O software consiste na “parte lógica” do computador, que inclui sistema operacional e programas. Então, basicamente, esses profissionais projetam e guiam o desenvolvimento de programas, aplicativos e sistemas, 
+             de forma que atendam aos requisitos e cumpram as funções determinadas.</p>
+             <br><br/> 
+             <p>Estão entre as principais atribuições do Engenheiro de Software:</p>
+             <br><br/>
+             <img src="https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3450&q=80"alt="software engineer" width="800" height=500>
+             <br><br/>
+             <br><br/>
+             <br><br/>
+             <ol>
+                <li>Desenvolver softwares e apps</li>
+                <li>Gerenciar projetos ligados aos softwares</li>
+                <li>Arquitetar o design estrutural dos programas</li>
+                <li>Realizar testes nos sistemas</li> 
+             </ol>
+            <br><br/>
+            <br><br/>
+             <p>Além dessas, esses engenheiros podem ter funções ligadas à administração de bancos de dados, manutenção dos sistemas e até mesmo tarefas relacionadas à gestão de projetos e à composição de manuais de instruções.</p>
+            <br><br/>
+             <p>publicado: 19.02.2021  horário: 12:14</p>
+            <hr><hr/>
+            <br><br/>
+        </div>
+    </body>
+</html>

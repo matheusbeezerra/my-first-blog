@@ -1,0 +1,69 @@
+h1 a,
+h2 a {
+    color: #e0650d;
+    font-family: 'Lobster';
+}
+
+body {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.page-header {
+    background-color: #e0650d;
+    margin-top: 0px;
+    padding: 5px 20px 15px 10px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #fdf9f9;
+    /*Blog Developer*/
+    font-size: 50pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-right: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #bd1a1a;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #fcf9f9;
+    float: right;
+    font-size: 10pt;
+    margin-right: 50px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: #928442;
+}
